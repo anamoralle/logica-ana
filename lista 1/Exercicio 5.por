@@ -1,29 +1,25 @@
 programa
 {
-inteiro incremento, valorfinal, numero
+real a,b, div
+	
 	funcao inicio()
 	{
-		escreva("digite um numero:")
-		leia(numero)
-		escreva("digite o ultimo valor:")
-		leia(valorfinal)
-	     escreva("digite o incremento")
-	     leia(incremento)
-	     enquanto(numero <= valorfinal){
-	    escreva(numero, " ")
-	    	numero = numero + incremento
-	
+		escreva("Digite quantos real têm em sua carteira: ")
+		leia(a)
 
-	     }
-	     escreva("acabou")
-	     }
+		b= 3.45
+
+		div = a/ 3.45
+
+		escreva("seu valor em dólar é: ", div)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 115; 
+ * @POSICAO-CURSOR = 22; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

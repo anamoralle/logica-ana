@@ -1,29 +1,28 @@
 programa
 {
-inteiro incremento, valorfinal, numero
+inteiro a, b, sub
+	
 	funcao inicio()
 	{
-		escreva("digite um numero:")
-		leia(numero)
-		escreva("digite o ultimo valor:")
-		leia(valorfinal)
-	     escreva("digite o incremento")
-	     leia(incremento)
-	     enquanto(numero <= valorfinal){
-	    escreva(numero, " ")
-	    	numero = numero + incremento
-	
+		escreva("Digite o ano em que está: ")
+          leia(a)
 
-	     }
-	     escreva("acabou")
-	     }
+          escreva("Digite o ano de seu nascimento: ") 
+          leia (b)
+
+          sub= a - b
+
+          escreva("\nSua idade é: ", sub)
+
+
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 115; 
+ * @POSICAO-CURSOR = 254; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
